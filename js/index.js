@@ -7,8 +7,6 @@ function getComputerChoice() {
     return validChoices[Math.floor(Math.random() * validChoices.length)];
 }
 
-
-
 function getPlayerChoice() {
     let choice = "";
 
