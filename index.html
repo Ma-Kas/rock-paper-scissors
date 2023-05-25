@@ -2,15 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
 
-    <script src="./js/index.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/index.js" defer></script> <!-- defer argument is important-->
 </head>
 
 <body>
+  <div class="content">
+    <div class="header">Let's play Rock Paper Scissors!</div>
+    <div class="choice-container">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+    <div class="results">
+      <div>Round Result:</div>
+      <div id="round"></div>
+    </div>
+    <div class="tally">
+      <div id="player-score">Player Score:</div>
+      <div id="cpu-score">CPU Score:</div>
+    </div>
+  </div>
+
 
 </body>
 
